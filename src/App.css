@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px; 
+  width: 100%; 
+  padding: 20px; 
+}
+
+/* RecipeList and RecipeDetails styles can be adjusted as needed */
+.recipe-list {
+  width: 30%; 
+  
+}
+
+.recipe-details {
+  width: 65%; 
+}

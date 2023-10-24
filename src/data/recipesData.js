@@ -1,0 +1,65 @@
+const recipes = [
+  {
+    id: 1,
+    title: "Spaghetti Carbonara",
+    author: "John Doe",
+    image: "spaghetti.jpg",
+    ingredients: [
+      "200g spaghetti",
+      "2 eggs",
+      "100g guanciale",
+      "50g pecorino cheese",
+      "Salt and pepper to taste",
+    ],
+    isFavorite: false,
+  },
+  {
+    id: 2,
+    title: "Chicken Alfredo",
+    author: "Jane Smith",
+    image: "chicken_alfredo.jpg",
+    ingredients: [
+      "250g fettuccine",
+      "2 chicken breasts",
+      "200ml heavy cream",
+      "50g parmesan cheese",
+      "Garlic, salt, and pepper to taste",
+    ],
+    isFavorite: false,
+  },
+  {
+    id: 3,
+    title: "Chicken Tacos",
+    author: "Maria Garcia",
+    image: "chicken_tacos.jpg",
+    ingredients: [
+      "2 cups cooked chicken, shredded",
+      "8 small tortillas",
+      "1 cup shredded lettuce",
+      "1 cup diced tomatoes",
+      "1/2 cup shredded cheddar cheese",
+      "1/4 cup sour cream",
+      "Salsa",
+      "Taco seasoning",
+    ],
+    isFavorite: false,
+  },
+  {
+    id: 4,
+    title: "Vegetable Stir-Fry",
+    author: "David Lee",
+    image: "vegetable_stir_fry.jpg",
+    ingredients: [
+      "2 cups mixed vegetables",
+      "1 cup tofu or chicken, diced",
+      "3 tablespoons soy sauce",
+      "2 tablespoons vegetable oil",
+      "1 clove garlic, minced",
+      "1 teaspoon ginger, minced",
+      "Salt and pepper to taste",
+    ],
+    isFavorite: false,
+  },
+];
+
+export default recipes;
